@@ -13,7 +13,7 @@ import { setPitches } from '@/store/features/pitchSlice'
 
 
 
-const pitchPage = () => {
+const PitchPage = () => {
     const dispatch=useDispatch();
     const session=useSession()
     const params =useParams();
@@ -138,4 +138,4 @@ console.log('✌️id --->', id);
   )
 }
 
-export default pitchPage
+export default PitchPage
