@@ -9,11 +9,11 @@ import { SessionProvider } from "next-auth/react";
 
 const workSans = localFont({
   src: [
-    {
-      path: './fonts/WorkSans-black.ttf', // Corrected from 'pathh' to 'path'
-      weight: '900',
-      style: 'black',
-    },
+    // {
+    //   path: './fonts/WorkSans-black.ttf', // Corrected from 'pathh' to 'path'
+    //   weight: '900',
+    //   style: 'black',
+    // },
     {
       path: './fonts/WorkSans-Regular.ttf',
       weight: '400',
